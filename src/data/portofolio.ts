@@ -1,0 +1,130 @@
+export const portfolioData = {
+  personal: {
+    name: "Muhammad Rafi",
+    role: "Software Developer",
+    github: "https://github.com/Raffi193",
+    linkedin: "https://linkedin.com/in/Muhammad Rafi",
+    email: "m.raffi1808@gmail.com",
+    phone: "+62 831-6355-9683",
+    location: "Palembang, Sumatera Selatan, Indonesia",
+  },
+  about: {
+    description: [
+      "Halo! Saya Muhammad Rafi based in Palembang, seorang Software Developer yang antusias dalam membangun aplikasi web modern dan responsif.",
+      "Saya senang belajar teknologi baru dan selalu mencari peluang untuk meningkatkan keterampilan saya. Misi saya adalah menciptakan solusi digital yang bermanfaat dan memberikan pengalaman pengguna yang luar biasa.",
+    ],
+    experience: "2+ Tahun",
+    projectsCompleted: "20+",
+    clients: "15+",
+  },
+  services: [
+    {
+      id: "web-dev",
+      title: "Web Development",
+      description: "Pembuatan website modern, interaktif, dan responsif menggunakan Next.js, React, Laravel dan Tailwind CSS.",
+      iconName: "Monitor", // Icon from lucide-react
+    },
+    {
+      id: "api-dev",
+      title: "Backend & API",
+      description: "Pengembangan RESTful API yang scalable menggunakan Node.js, Express, atau framework lainnya.",
+      iconName: "Server",
+    },
+    {
+      id: "ui-ux",
+      title: "UI/UX Implementation",
+      description: "Mengubah sebuah desain menjadi sistem real dengan kode yang pixel-perfect, user friendly dan animasi yang smooth.",
+      iconName: "PenTool",
+    },
+  ],
+  skills: [
+    { name: "Next.js", level: 90 },
+    { name: "React", level: 85 },
+    { name: "Tailwind CSS", level: 95 },
+    { name: "TypeScript", level: 80 },
+    { name: "Python", level: 75 },
+    { name: "Node.js", level: 70 },
+    { name: "Laravel", level: 85 },
+    { name: "MySQL", level: 85 },
+    { name: "PostgreSQL", level: 80 },
+    { name: "Git & GitHub", level: 85 },
+    { name: "PHP", level: 80 },
+    { name: "Postman", level: 70 },
+  ],
+  projects: [
+    {
+      id: 1,
+      title: "E-Commerce Platform",
+      description: "Platform e-commerce modern dengan fitur cart, pembayaran, dan dashboard admin.",
+      image: "/project-ecommerce.jpg", // Butuh gambar dummy
+      tech: ["Next.js", "Tailwind CSS", "Prisma"],
+      github: "https://github.com",
+      live: "https://ecommerce.com",
+    },
+    {
+      id: 2,
+      title: "Sistem Manajemen Keuangan",
+      description: "Aplikasi web untuk mencatat pengeluaran dan pemasukan dengan visualisasi chart.",
+      image: "/project-finance.jpg",
+      tech: ["React", "Express", "PostgreSQL"],
+      github: "https://github.com",
+      live: "https://finance.com",
+    },
+    {
+      id: 3,
+      title: "Portal Berita Sekolah",
+      description: "Website portal informasi sekolah dengan CMS mandiri.",
+      image: "/project-school.jpg",
+      tech: ["Next.js", "Tailwind CSS", "Firebase"],
+      github: "https://github.com",
+      live: "https://school.com",
+    },
+  ],
+  resume: [
+    {
+      id: 1,
+      year: "2025 - Sekarang",
+      role: "Fullstack Developer",
+      company: "Bangga Punya Web Inc.",
+      description: "Mengembangkan berbagai aplikasi web untuk klien menggunakan ekosistem React, Next.js, Laravel, dan ekosistem lainnya.",
+    },
+    {
+      id: 2,
+      year: "2024 - Sekarang",
+      role: "Freelance Web Developer",
+      company: "Freelance",
+      description: "Bekerja sama dengan tim desainer untuk mengimplementasikan antarmuka pengguna yang interaktif.",
+    },
+    {
+      id: 3,
+      year: "2023 - Sekarang",
+      role: "S1 Sistem Informasi",
+      company: "Universitas Islam Negeri Raden Fatah Palembang",
+      description: "Fokus pada pengembangan perangkat lunak dan arsitektur sistem, desain dan analisis sistem, serta manajemen proyek.",
+    },
+  ],
+  blogs: [
+    {
+      id: 1,
+      title: "Membangun Aplikasi Web Cepat dengan Next.js App Router",
+      date: "12 Okt 2023",
+      excerpt: "Pelajari cara memaksimalkan fitur terbaru dari Next.js untuk performa yang lebih baik.",
+      slug: "membangun-aplikasi-web-cepat-dengan-nextjs",
+    },
+    {
+      id: 2,
+      title: "Menguasai Tailwind CSS untuk Desain Responsif",
+      date: "05 Sep 2023",
+      excerpt: "Tips dan trik menggunakan utility classes Tailwind dengan efisien.",
+      slug: "menguasai-tailwind-css",
+    },
+    {
+      id: 3,
+      title: "Pentingnya Animasi UI dengan Framer Motion",
+      date: "20 Agu 2023",
+      excerpt: "Menambahkan kehidupan pada website anda dengan animasi yang natural.",
+      slug: "pentingnya-animasi-ui-framer-motion",
+    },
+  ],
+};
+
