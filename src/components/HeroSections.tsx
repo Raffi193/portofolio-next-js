@@ -26,17 +26,18 @@ export default function HeroSection() {
   };
 
   const fadeLeftVariants = {
-    hidden: { opacity: 0, x: 20 },
+    hidden: { opacity: 0, x: 40, scale:0.8 },
     visible: {
       opacity: 1,
       x: 0,
+      scale:1,
       transition: { duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] as any },
     },
   };
 
   // Teks yang akan dianimasikan
   const deskripsi =
-    "Saya siap membangun solusi digital yang efisien dan scalable, saya memiliki keterampilan pada pengembangan web modern dan analisis data. Dengan pengalaman dalam berbagai proyek, bahasa pemrograman dan juga framework, saya berkomitmen untuk terus berkontribusi pada proyek-proyek inovatif.";
+    "Saya siap membangun solusi digital yang efisien dan scalable, dengan keterampilan pada pengembangan web modern dan analisis data serta pengalaman dalam berbagai proyek, bahasa pemrograman dan juga framework, saya berkomitmen untuk terus berkontribusi pada proyek-proyek inovatif.";
 
   return (
     <section className="relative flex min-h-[90vh] items-center justify-center overflow-hidden px-6 py-10 pt-32 sm:px-12 md:px-14">
@@ -110,7 +111,7 @@ export default function HeroSection() {
             className="flex flex-wrap items-center gap-6"
           >
             <Link
-              href="#projects"
+              href="#projects" 
               className="group flex items-center gap-2 rounded-full bg-zinc-900 dark:bg-white px-8 py-4 text-sm font-semibold text-white dark:text-zinc-950 transition-all hover:bg-blue-600 dark:hover:bg-blue-900 hover:text-white hover:shadow-[0_0_20px_rgba(59,130,246,0.3)] dark:hover:shadow-[0_0_20px_rgba(255,255,255,0.1)] active:scale-95"
             >
               Lihat Proyek Saya
@@ -145,7 +146,7 @@ export default function HeroSection() {
           <div className="absolute inset-0 -z-10 rounded-full bg-blue-600/20 blur-[100px]" />
 
           {/* Container Foto */}
-          <div className="relative h-[300px] w-[300px] overflow-hidden rounded-2xl shadow-2xl sm:h-[400px] sm:w-[400px] lg:h-[450px] lg:w-[450px]">
+          <div className="relative h-[300px] w-[300px] overflow-hidden rounded-2xl shadow-2xl sm:h-[400px] sm:w-[400px] lg:h-[465px] lg:w-[450px]">
             <Image
               src="/profile.jpg"
               alt="Foto Profil"

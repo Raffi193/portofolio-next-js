@@ -51,7 +51,7 @@ export default function BlogSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
-              className="text-xl mt-4 text-zinc-900 dark:text-zinc-100 sm:text-xl"
+              className="text-xl mt-4 text-zinc-600 dark:text-zinc-400 sm:text-lg"
             >
               Kumpulan artikel dan tulisan yang saya buat seputar teknologi informasi, <br /> pengembangan sistem, serta pengalaman saya.
             </motion.p>
