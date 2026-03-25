@@ -60,8 +60,8 @@ export default function AboutSection() {
               <h2 className="mb-2 text-sm font-semibold tracking-widest text-blue-500 uppercase">
                 Tentang Saya
               </h2>
-              <h3 className="text-4xl font-bold text-zinc-900 dark:text-zinc-100 sm:text-4xl">
-                Lebih Dekat Dengan Saya
+              <h3 className="text-3xl font-bold text-zinc-900 dark:text-zinc-100 sm:text-4xl">
+                Closer to Me
               </h3>
             </motion.div>
 

@@ -70,7 +70,7 @@ export default function HeroSection() {
           {/* Headline Utama */}
           <motion.h1
             variants={itemVariants}
-            className="mb-6 text-xl font-bold bg-gradient-to-r from-[#03045e] via-[#0077b6] to-[#00b2] bg-clip-text text-transparent tracking-normal sm:text-4xl lg:text-8xl"
+            className="mb-6 text-7xl font-bold bg-gradient-to-r from-[#03045e] via-[#0077b6] to-[#00b2] bg-clip-text text-transparent tracking-normal sm:text-4xl lg:text-8xl"
           >
             Welcome
             <br />
@@ -86,7 +86,7 @@ export default function HeroSection() {
           {/* Deskripsi (Word-by-Word Reveal) */}
           <motion.div
             variants={itemVariants} // Tetap memakai variant utama agar posisinya turun mengikuti judul
-            className="mb-30 max-w-2xl text-lg font-normal leading-relaxed text-zinc-600 dark:text-zinc-400 sm:text-xl"
+            className="mb-12 max-w-2xl text-lg font-normal leading-relaxed text-zinc-600 dark:text-zinc-400 sm:text-xl"
           >
             {deskripsi.split(" ").map((word, index) => (
               <motion.span
@@ -112,7 +112,7 @@ export default function HeroSection() {
           >
             <Link
               href="#projects" 
-              className="group flex items-center gap-2 rounded-full bg-zinc-900 dark:bg-white px-8 py-4 text-sm font-semibold text-white dark:text-zinc-950 transition-all hover:bg-blue-600 dark:hover:bg-blue-900 hover:text-white hover:shadow-[0_0_20px_rgba(59,130,246,0.3)] dark:hover:shadow-[0_0_20px_rgba(255,255,255,0.1)] active:scale-95"
+              className="mb-2 group flex items-center gap-2 rounded-full bg-zinc-900 dark:bg-white px-8 py-4 text-sm font-semibold text-white dark:text-zinc-950 transition-all hover:bg-blue-600 dark:hover:bg-blue-900 hover:text-white hover:shadow-[0_0_20px_rgba(59,130,246,0.3)] dark:hover:shadow-[0_0_20px_rgba(255,255,255,0.1)] active:scale-95"
             >
               Lihat Proyek Saya
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
@@ -146,7 +146,7 @@ export default function HeroSection() {
           <div className="absolute inset-0 -z-10 rounded-full bg-blue-600/20 blur-[100px]" />
 
           {/* Container Foto */}
-          <div className="relative h-[300px] w-[300px] overflow-hidden rounded-2xl shadow-2xl sm:h-[400px] sm:w-[400px] lg:h-[465px] lg:w-[450px]">
+          <div className="relative h-[370px] w-[350px] overflow-hidden rounded-2xl shadow-2xl sm:h-[400px] sm:w-[400px] lg:h-[465px] lg:w-[450px]">
             <Image
               src="/profile.jpg"
               alt="Foto Profil"

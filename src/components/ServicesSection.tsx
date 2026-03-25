@@ -54,9 +54,9 @@ export default function ServicesSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-4xl font-bold text-zinc-900 dark:text-zinc-100 sm:text-4xl"
+            className="text-3xl font-bold text-zinc-900 dark:text-zinc-100 sm:text-4xl"
           >
-            Apa Yang Bisa Saya Lakukan?
+            What Can I Do?
           </motion.h3>
         </div>
 
@@ -71,7 +71,7 @@ export default function ServicesSection() {
             <motion.div
               key={service.id}
               variants={itemVariants}
-              className="group relative flex flex-col justify-between overflow-hidden rounded-2xl bg-white dark:bg-zinc-900/40 p-10 border border-zinc-200 dark:border-white/5 shadow-lg transition-all hover:bg-zinc-50 dark:hover:bg-zinc-800/60 hover:-translate-y-2 hover:shadow-[0_0_30px_rgba(59,130,246,0.15)]"
+              className="group relative flex flex-col justify-between overflow-hidden rounded-2xl bg-white dark:bg-zinc-900/40 p-4 border border-zinc-200 dark:border-white/5 shadow-lg transition-all hover:bg-zinc-50 dark:hover:bg-zinc-800/60 hover:-translate-y-2 hover:shadow-[0_0_30px_rgba(59,130,246,0.15)]"
             >
               {/* Efek Glow pada hover */}
               <div className="absolute inset-0 -z-10 bg-gradient-to-b from-blue-500/0 via-transparent to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-10" />

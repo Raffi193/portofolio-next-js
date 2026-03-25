@@ -40,9 +40,9 @@ export default function ProjectSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
-              className="text-4xl font-bold text-zinc-900 dark:text-zinc-100 sm:text-4xl"
+              className="text-3xl font-bold text-zinc-900 dark:text-zinc-100 sm:text-4xl"
             >
-              Proyek-Proyek Saya
+              Projects I've Done
             </motion.h3>
           </div>
           
@@ -52,7 +52,7 @@ export default function ProjectSection() {
             viewport={{ once: true }}
           >
             <a href="https://github.com/Raffi193" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full border border-zinc-200 dark:border-zinc-700 bg-white dark:bg-zinc-900/50 px-6 py-3 text-sm font-medium text-zinc-700 dark:text-zinc-300 transition-all hover:bg-zinc-50 dark:hover:bg-zinc-800 hover:text-zinc-900 dark:hover:text-white">
-              Lihat GitHub Saya <ArrowUpRight className="h-4 w-4" />
+              Visit my GitHub <ArrowUpRight className="h-4 w-4" />
             </a>
           </motion.div>
         </div>
@@ -68,7 +68,7 @@ export default function ProjectSection() {
             <motion.div
               key={project.id}
               variants={itemVariants}
-              className="group flex flex-col overflow-hidden rounded-2xl bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-white/10 shadow-xl transition-all hover:-translate-y-2 hover:border-zinc-300 dark:hover:border-white/20 hover:shadow-2xl"
+              className="group flex flex-col overflow-hidden rounded-xl bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-white/10 shadow-xl transition-all hover:-translate-y-2 hover:border-zinc-300 dark:hover:border-white/20 hover:shadow-2xl"
             >
               {/* Gambar Proyek dengan Placeholder Efek */}
               <div className="relative aspect-video w-full overflow-hidden bg-zinc-100 dark:bg-zinc-800">
@@ -92,13 +92,13 @@ export default function ProjectSection() {
               </div>
 
               {/* Konten Proyek */}
-              <div className="flex flex-1 flex-col p-8">
+              <div className="flex flex-1 flex-col p-3">
                 {/* Tech Stack Tags */}
                 <div className="mb-4 flex flex-wrap gap-2">
                   {project.tech.map((techName, idx) => (
                     <span
                       key={idx}
-                      className="rounded-lg bg-blue-500/10 px-3 py-1 text-xs font-medium text-blue-400"
+                      className="rounded-lg bg-blue-500/10 px-2 py-1 text-xs font-medium text-blue-400"
                     >
                       {techName}
                     </span>

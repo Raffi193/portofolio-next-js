@@ -39,9 +39,9 @@ export default function ResumeSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-4xl font-bold text-zinc-900 dark:text-zinc-100 sm:text-4xl"
+            className="text-3xl font-bold text-zinc-900 dark:text-zinc-100 sm:text-4xl"
           >
-            Perjalanan Karir & Pendidikan
+            Career and education journey
           </motion.h3>
         </div>
 

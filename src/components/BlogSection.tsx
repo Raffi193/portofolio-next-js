@@ -41,9 +41,9 @@ export default function BlogSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
-              className="text-4xl font-bold text-zinc-900 dark:text-zinc-100 sm:text-4xl"
+              className="text-3xl font-bold text-zinc-900 dark:text-zinc-100 sm:text-4xl"
             >
-              Artikel & Tulisan Terbaru
+              My Articles and Writings
             </motion.h3>
 
             <motion.p
@@ -51,7 +51,7 @@ export default function BlogSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
-              className="text-xl mt-4 text-zinc-600 dark:text-zinc-400 sm:text-lg"
+              className="text-lg mt-4 text-zinc-600 dark:text-zinc-400 sm:text-lg"
             >
               Kumpulan artikel dan tulisan yang saya buat seputar teknologi informasi, <br /> pengembangan sistem, serta pengalaman saya.
             </motion.p>
@@ -82,7 +82,7 @@ export default function BlogSection() {
               variants={itemVariants}
               className="group flex flex-col justify-between overflow-hidden rounded-2xl bg-white dark:bg-zinc-900/60 shadow-lg border border-zinc-200 dark:border-white/5 transition-all hover:-translate-y-2 hover:bg-zinc-50 dark:hover:bg-zinc-800/80 hover:border-zinc-300 dark:hover:border-white/10"
             >
-              <div className="p-8">
+              <div className="p-5">
                 <div className="mb-4 flex items-center gap-2 text-xs font-semibold text-zinc-500">
                   <Calendar className="h-4 w-4 text-blue-600 dark:text-blue-500" />
                   <span>{blog.date}</span>
