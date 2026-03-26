@@ -58,7 +58,7 @@ export const portfolioData = {
       description: "Platform e-commerce modern untuk jual beli komoditas Agribisnis dengan fitur cart, pembayaran, dashboard admin dll.",
       image: "/images/komoditax.png",
       tech: ["Next.js", "Tailwind CSS", "Prisma", "PostgreSQL"],
-      github: "https://github.com",
+      github: "https://github.com/repos?q=owner%3A%40me",
       live: "https://ecommerce.com",
     },
     {
@@ -67,7 +67,7 @@ export const portfolioData = {
       description: "Aplikasi web untuk manajemen karyawan dengan fitur absensi, data karyawan, dan visualisasi data.",
       image: "/images/manajemen-karyawan.png",
       tech: ["Laravel", "Tailwind CSS", "MySQL"],
-      github: "https://github.com",
+      github: "https://github.com/repos?q=owner%3A%40me",
       live: "https://finance.com",
     },
     {
@@ -76,7 +76,7 @@ export const portfolioData = {
       description: "Website portal informasi kelurahan Sukajadi dengan fitur CMS mandiri.",
       image: "/images/kelurahan-sukajadi.png",
       tech: ["Next.js", "Tailwind CSS", "Clerk", "Supabase", "PostgreSQL"],
-      github: "https://github.com",
+      github: "https://github.com/repos?q=owner%3A%40me",
       live: "https://sukajadi.com",
     },
     {
@@ -85,7 +85,7 @@ export const portfolioData = {
       description: "Website portal informasi desa Air Senggeris dengan fitur CMS mandiri.",
       image: "/images/airsenggeris.png",
       tech: ["Laravel", "Tailwind CSS", "MySQL"],
-      github: "https://github.com",
+      github: "https://github.com/repos?q=owner%3A%40me",
       live: "https://airsenggeris.com",
     },
     {
@@ -94,8 +94,8 @@ export const portfolioData = {
       description: "Layanan jasa pembuatan website dengan fitur lengkap, modern, profesional dan harga terjangkau.",
       image: "/images/banggapunyaweb.png",
       tech: ["Next.js", "Tailwind CSS", "Firebase"],
-      github: "https://github.com",
-      live: "https://banggapunyeweb.com",
+      github: "https://github.com/repos?q=owner%3A%40me",
+      live: "https://banggapunyaweb.com",
     },
         {
       id: 6,
@@ -103,7 +103,7 @@ export const portfolioData = {
       description: "Sistem booking tiket pesawat dengan fitur lengkap, modern, user friendly, dan juga dilengkapi dengan admin panel untuk manajemen tiket, penumpang, dan transaksi.",
       image: "/images/bookingtiket.png",
       tech: ["Laravel", "Tailwind CSS", "MySQL", "Filament"],
-      github: "https://github.com",
+      github: "https://github.com/repos?q=owner%3A%40me",
       live: "https://booking-tiket.com",
     },
   ],
@@ -120,14 +120,14 @@ export const portfolioData = {
       year: "2024 - Sekarang",
       role: "Freelance Web Developer",
       company: "Freelance",
-      description: "Bekerja sama dengan tim desainer untuk mengimplementasikan antarmuka pengguna yang interaktif.",
+      description: "Bekerja sama dengan tim desainer untuk mengimplementasikan antarmuka pengguna yang interaktif dan sesuai dengan kebutuhan klien.",
     },
     {
       id: 3,
       year: "2023 - Sekarang",
       role: "S1 Sistem Informasi",
       company: "Universitas Islam Negeri Raden Fatah Palembang",
-      description: "Fokus pada pengembangan perangkat lunak dan arsitektur sistem, desain dan analisis sistem, serta manajemen proyek.",
+      description: "Fokus pada pengembangan perangkat lunak dan arsitektur sistem, desain basis data dan analisis sistem, serta manajemen proyek.",
     },
   ],
   blogs: [
