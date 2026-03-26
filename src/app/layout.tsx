@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Portofolio React Next.js",
-  description: "Website portofolio pribadi modern.",
+  description: "Muhammad Rafi Portofolio",
 };
 
 export default function RootLayout({
